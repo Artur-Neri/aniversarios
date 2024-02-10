@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 2.5rem;
+}
+
+#titulo-pagina {
+    background-color: #2d2da5;
+    color: #ffffff;
+
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 700;
+
+    padding: 3rem;
+}
+
+#formulario {
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+
+}
+
+#formulario label {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    display: block;
+}
+
+.campo-formulario {
+    display: flex;
+    flex-direction: column;
+    
+    gap: .5rem;
+}
+
+.validacaoMsg {
+    font-size: .85rem;
+
+    color: #ff0000;
+}
