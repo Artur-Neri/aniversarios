@@ -1,54 +1,89 @@
 body {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    gap: 2.5rem;
-    padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 2.5rem;
 }
 
 #titulo-pagina {
-    background-color: #2d2da5;
-    color: #ffffff;
+  background-color: #2d2da5;
+  color: #ffffff;
 
-    font-family: sans-serif;
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 2rem;
-    font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 700;
 
-    padding: 3rem;
+  padding: 3rem;
 }
 
 #formulario {
-
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 2rem;
-
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
 }
 
 #formulario label {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input[type="text"] {
+  background-color: #e4e4e4;
+
+  padding: 1rem 1.5rem;
+  width: 300px;
+
+  border: none;
+  border-radius: 0.5rem;
 }
 
 .label {
-    display: block;
+  display: block;
 }
 
 .campo-formulario {
-    display: flex;
-    flex-direction: column;
-    
-    gap: .5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .validacaoMsg {
-    font-size: .85rem;
+  font-size: 0.85rem;
 
-    color: #ff0000;
+  color: #ff0000;
+}
+
+#salvarBtn {
+  cursor: pointer;
+
+  background-color: #1eec1e;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  max-width: 1000px;
+}
+
+td,
+th {
+  padding: 0.5rem 0;
+}
+
+td {
+  padding-left: 10px;
 }

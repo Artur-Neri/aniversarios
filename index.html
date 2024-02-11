@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Validação de Formulário</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <header>
-        <h1 id="titulo-pagina">meus aniversários</h1>
+      <h1 id="titulo-pagina">meus aniversários</h1>
     </header>
     <main>
-        <form action="#" id="formulario">
-            <div class="campo-formulario">
-                <label for="nomeTxt" id="nome-pessoa"><span class="label">Nome da pessoa (campo obrigatório)</span><input type="text" placeholder="Digite o nome da pessoa aqui" id="nomeTxt"></label>
-                <p class="validacaoMsg">O nome precisa ter pelo menos três letras e no máximo cento e vinte, não é possível informar números.</p>
-            </div>
-            <div class="campo-fomulario">
-                <label for="nomeTxt" id="nascimento-pessoa"><span class="label">Data de nascimento (campo obrigatório)</span><input type="text" placeholder="Digite a data de nascimento aqui" id="nascimentoTxt"></label>
-                <p class="validacaoMsg">A data precisa estar no formato DD/MM/AAAA</p>
-            </div>
+      <form action="#" id="formulario">
+        <div class="campo-formulario">
+          <label for="nomeTxt" id="nome-pessoa"
+            ><span class="label">Nome da pessoa (campo obrigatório)</span
+            ><input
+              type="text"
+              placeholder="Digite o nome da pessoa aqui"
+              id="nomeTxt"
+          /></label>
+          <p class="validacaoMsg">
+            O nome precisa ter pelo menos três letras e no máximo cento e vinte,
+            não é possível informar números.
+          </p>
+        </div>
+        <div class="campo-formulario">
+          <label for="nomeTxt" id="nascimento-pessoa"
+            ><span class="label">Data de nascimento (campo obrigatório)</span
+            ><input
+              type="text"
+              placeholder="Digite a data de nascimento aqui"
+              id="nascimentoTxt"
+          /></label>
+          <p class="validacaoMsg">A data precisa estar no formato DD/MM/AAAA</p>
+        </div>
 
+        <button type="submit" id="salvarBtn">Salvar</button>
+      </form>
 
-            <button type="submit" id="salvarBtn">Salvar</button>
-        </form>
-
-        <table id="tabela">
-            <tr>
-                <th>Nome</th>
-                <th>Data de Nascimento</th>
-                <th>Ações</th>
-            </tr>
-        </table>
+      <table id="tabela" b>
+        <tr>
+          <th>Nome</th>
+          <th>Data de Nascimento</th>
+          <th>Ações</th>
+        </tr>
+        <tr>
+          <td>Artur Neri</td>
+          <td>11-03-2002</td>
+          <td>
+            <span>Editar</span>
+            <span>Excluir</span>
+          </td>
+        </tr>
+      </table>
     </main>
-</body>
+  </body>
 </html>
