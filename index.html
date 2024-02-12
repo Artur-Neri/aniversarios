@@ -18,6 +18,9 @@
             ><span class="label">Nome da pessoa (campo obrigatório)</span
             ><input
               type="text"
+              min="3"
+              maxlength="120"
+              pattern="[a-zA-Z]"
               placeholder="Digite o nome da pessoa aqui"
               id="nomeTxt"
           /></label>
@@ -30,7 +33,7 @@
           <label for="nomeTxt" id="nascimento-pessoa"
             ><span class="label">Data de nascimento (campo obrigatório)</span
             ><input
-              type="text"
+              type="date"
               placeholder="Digite a data de nascimento aqui"
               id="nascimentoTxt"
           /></label>
